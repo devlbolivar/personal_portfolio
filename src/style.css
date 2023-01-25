@@ -11,11 +11,31 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --primary-color-variation-1: #9fb0ffd0;
+  --primary-color-variation-12: #a588c0;
+  --primary-color-variation-2: rgba(178, 121, 216, 0.959);
+  --primary-color-variation-2-hover: rgba(222, 130, 235, 0.911);
+  --primary-color-variation-8: #68187a;
+  --primary-color-variation-9: #801f95;
+  --primary-color-variation-10: #87209e;
+  --primary-color-variation-11: #700c86;
+  --primary-color-variation-12: rgba(119, 53, 136, 0.459);
+  --primary-color-variation-12-hover:rgba(129, 72, 144, 0.561);
+  --primary-color-variation-13: rgba(145, 77, 161, 0.459);
+  --primary-color-variation-13-hover: rgba(155, 88, 173, 0.65);
+  --primary-color-variation-14: #623686;
+  --primary-color-variation-15: #6d20c5d7;
+  --primary-color-variation-16: rgba(200, 137, 230, 0.637);
+  --primary-color-variation-17: rgba(89, 4, 168, 0.137);
+  --primary-color-variation-18: rgba(197, 115, 230, 0.883);
+  --primary-color-variation-19: #8a49a8;
+  --primary-color-variation-20: #5234795d;
+  --primary-color-variation-21: #934cce5e;
+  --primary-color-variation-22: #a24dd386;
 }
 
-.purple {
-  color: var(--imp-text-color) !important;
+.main-color {
+  color: var(--primary-color-variation-1) !important;
 }
 
 button:focus {
@@ -97,7 +117,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: var(--primary-color-variation-1)!important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +214,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: var(--primary-color-variation-1);
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -289,17 +309,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: var(--primary-color-variation-1);
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: var(--primary-color-variation-1) !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: var(--primary-color-variation-1) !important;
 }
 
 @media (max-width: 767px) {

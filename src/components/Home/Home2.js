@@ -16,33 +16,30 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              PERMITEME<span className="purple"> PRESENTARME </span> A MI MISMO
+              ¿QUIEN <span className="main-color"> SOY?</span>
             </h1>
 
             <p className="home-about-body">
-              Me encanta programar, es una de esas cosas que puedo hacer sin que
-              me paguen, pero aun así me hace sentir cómodo con un buen sueldo
-              &#128516;
-              <br />
-              Con el tiempo he aprendido a compaginar mi lado artístico, siendo
-              músico desde muy joven, con mi lado lógico. Y al fin y al cabo,
-              somos creadores, construyendo y reinventando continuamente un
-              mundo que requiere conocimiento, pasión, empatía y humanidad.
-              <br />
-              Disfruto aprendiendo constantemente y aprendiendo rápido, es una
-              habilidad que valoro como ingeniero de software, en un campo donde
-              todo se actualiza rápidamente. Desde hace 7 años formo parte del
-              ejército de programadores que hacen el mundo más intuitivo,
-              inclusivo y accesible. Me encanta aplicar buenas prácticas y trato
-              de escribir código que sea legible y comprensible para otros
-              programadores, es algo que me motiva a buscar mejores y más
-              sencillas soluciones. Algunas de mis habilidades son resolver
-              problemas, aprender rápido, compartir conocimientos y ayudar a los
-              demás. En cuanto a las tecnologías que domino, puedo mencionar
-              ReactJs, Typescript, Javascript, React Testing Library, React
-              Native, Html, Css, Bootstrap, Material UI, Php, Mysql, PostgreSQL,
-              Git y Linux. Disfruto ser parte de equipos cohesionados que
-              generan un ambiente de calidad y compañerismo.
+              Soy un desarrollador web con ganas de crear cosas increíbles en la
+              web. Me apasiona todo lo relacionado con la programación y estoy
+              siempre buscando nuevos desafíos y oportunidades para aprender y
+              crecer en mi carrera.
+            </p>
+            <p className="home-about-body">
+              En mi tiempo libre, me gusta estar al día con las últimas
+              tendencias y tecnologías del desarrollo web, y también disfruto
+              trabajando en proyectos personales y colaborando con la comunidad.
+              He tenido la suerte de trabajar en una variedad de proyectos
+              interesantes a lo largo de mi carrera, desde sitios web de
+              comercio electrónico hasta aplicaciones móviles y sistemas de
+              gestión de contenidos. Me encanta poder ayudar a las empresas a
+              alcanzar sus objetivos a través de soluciones digitales atractivas
+              y eficientes.
+            </p>
+            <p className="home-about-body">
+              Si estás buscando un desarrollador web con ganas de crear cosas
+              increíbles, no dudes en echar un vistazo a mi portafolio y
+              contactar conmigo. ¡Estaré encantado de charlar contigo!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -55,7 +52,8 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>ENCUENTRAME EN</h1>
             <p>
-              Siéntete libre de <span className="purple">conectar </span>conmigo
+              Siéntete libre de <span className="main-color">conectar </span>
+              conmigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
